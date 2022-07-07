@@ -23,7 +23,6 @@ export class LoanNetworkCacheStore
     vector: [amount: number, term: number],
     value: ProposalHttpResponse,
   ): void {
-    console.log(Object.keys(this.store));
     const vectorKey = `${vector[0]}-${vector[1]}`;
 
     // Use queue to clear old records from cache.
