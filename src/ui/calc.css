@@ -1,0 +1,26 @@
+.calc {
+    width: 600px;
+    margin: 25px auto;
+    border: 1px solid #eee;
+    border-radius: 9px;
+    box-shadow: 2px 3px 12px #00000015;
+}
+
+.calc--header {
+    background-color: #76e6ad;
+    border-radius: 9px 9px 0 0;
+}
+
+.calc--footer {
+    border-radius: 0 0 9px 9px;
+}
+
+.calc--body, .calc--footer {
+    background-color: #fff;
+}
+
+.calc--header, .calc--body, .calc--footer {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}

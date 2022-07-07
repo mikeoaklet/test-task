@@ -1,0 +1,13 @@
+.range-slider-wrapper {
+    color: #fff;
+}
+
+.range-slider {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.range-slider-wrapper .title, .range-slider-wrapper .range {
+    display: flex;
+    justify-content: space-between;
+}

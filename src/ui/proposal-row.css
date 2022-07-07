@@ -1,0 +1,20 @@
+.proposal--row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.proposal--row--2nd-cell * {
+    display: block;
+    text-align: right;
+}
+
+.proposal--row--2nd-cell strong {
+    font-size: 16px;
+}
+
+.proposal--row--2nd-cell small {
+    font-size: 12px;
+}
